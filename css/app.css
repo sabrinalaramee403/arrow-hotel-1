@@ -1,0 +1,31 @@
+div {
+	border: 2px solid #111;
+	padding: 1.5em;
+}
+
+h1 {
+	font-family: 'Major Mono Display', monospace;
+	font-size: 2rem;
+}
+
+.sectionA {
+	background-color: #FA7268;
+	border: 1px solid #333;
+}
+
+.sectionB {
+	border: 1px solid #333;
+}
+
+.sectionC {
+	background-color: #fdd9d2;
+	border: 1px solid #333;
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+}
+
+
+
