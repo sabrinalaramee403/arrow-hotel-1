@@ -128,9 +128,24 @@ h2, h3, h4 {
 .homeBooking {
 	background-image: url(../img/nyc even.jpg);
 	background-size: contain;
-	height:400px;
-	width: 333px;
 	background-position: center;
+}
+
+
+.contact {
+	background-image: url(../img/nyc even.jpg);
+	background-size: contain;
+	background-position: center;
+}
+
+input, textarea, label {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1rem;
+}
+
+.placeholder {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1rem;
 }
 
 h6 {
@@ -147,10 +162,23 @@ h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.submitButton {
+    background-color: #FA7268;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 /* Medium and up */
 @media screen and (min-width: 40em) {
 
 }
+
+
 
 
 
