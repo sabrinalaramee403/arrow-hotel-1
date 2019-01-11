@@ -3,8 +3,116 @@ div {
 	padding: 1.5em;
 }
 
+
+
+.hover-underline-menu {
+  width: 100%;
+}
+
+.hover-underline-menu .menu {
+  background-color: #fdd9d2;
+  font-family: 'Staatliches', cursive;
+  font-size: 1.5rem;
+}
+
+.hover-underline-menu .menu a {
+  color: #fefefe;
+  padding: 1.2rem 1.5rem;
+}
+
+.hover-underline-menu .menu .underline-from-center {
+  position: relative;
+}
+
+.hover-underline-menu .menu .underline-from-center::after {
+  content: "";
+  position: absolute;
+  top: calc(100% - 0.125rem);
+  border-bottom: 0.125rem solid #fefefe;
+  left: 50%;
+  right: 50%;
+  transition: all 0.5s ease;
+}
+
+.hover-underline-menu .menu .underline-from-center:hover::after {
+  left: 0;
+  right: 0;
+  transition: all 0.5s ease;
+}
+
+
+.input-number-group {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input-number-group input[type=number]::-webkit-inner-spin-button,
+.input-number-group input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+.input-number-group .input-group-button {
+  line-height: calc(80px/2 - 5px);
+}
+
+.input-number-group .input-number {
+  width: 80px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+  display: block;
+  margin: 0;
+}
+
+.input-number-group .input-number,
+.input-number-group .input-number-decrement,
+.input-number-group .input-number-increment {
+  border: 1px solid #cacaca;
+  height: 40px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 0;
+}
+
+.input-number-group .input-number-decrement,
+.input-number-group .input-number-increment {
+  display: inline-block;
+  width: 40px;
+  background: #e6e6e6;
+  color: #0a0a0a;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.input-number-group .input-number-decrement {
+  margin-right: 0.3rem;
+}
+
+.input-number-group .input-number-increment {
+  margin-left: 0.3rem;
+}
+
+
+
+
 h1 {
 	font-family: 'Major Mono Display', monospace;
+	font-size: 3rem;
+}
+
+h2, h3, h4 {
+	font-family: 'Dosis', sans-serif;
 	font-size: 2rem;
 }
 
@@ -17,9 +125,26 @@ h1 {
 	border: 1px solid #333;
 }
 
+.homeBooking {
+	background-image: url(../img/nyc even.jpg);
+	background-size: contain;
+	height:400px;
+	width: 333px;
+	background-position: center;
+}
+
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.info {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .sectionC {
 	background-color: #fdd9d2;
 	border: 1px solid #333;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Medium and up */
