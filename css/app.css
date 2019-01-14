@@ -121,16 +121,22 @@ h2, h3, h4 {
 	border: 1px solid #333;
 }
 
-.sectionB {
+.sectionBook, .sectionB {
 	border: 1px solid #333;
 }
 
-.homeBooking {
-	background-image: url(../img/nyc even.jpg);
-	background-size: contain;
-	background-position: center;
+
+
+.booking {
+  font-family: 'Dosis', sans-serif;
 }
 
+.sectionD {
+  background-image: url(../img/nyc even.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
 
 .contact {
 	background-image: url(../img/nyc even.jpg);
@@ -148,6 +154,11 @@ input, textarea, label {
 	font-size: 1rem;
 }
 
+form {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1rem;
+}
+
 h6 {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -161,6 +172,13 @@ h6 {
 	border: 1px solid #333;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
+.infoForm {
+    min-height: 100px;
+    padding: 15px;
+}
+
 
 .submitButton {
     background-color: #FA7268;
